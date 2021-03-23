@@ -1,3 +1,4 @@
+// numero factorial
 import java.util.Scanner;
 public class NumeroFactorial {
     public static int factorial (int numUno ){
@@ -16,7 +17,7 @@ public class NumeroFactorial {
         numUno = in.nextInt();
     } while (numUno <=0);
         System.out.println("el factorial es : "+ factorial(numUno));
-        System.out.println("funciona?");
+
     }
 
 }
